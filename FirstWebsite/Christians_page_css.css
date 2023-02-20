@@ -1,0 +1,13 @@
+body {
+  background-color:yellow;
+}
+
+h2 {
+  color: black;
+  text-align: right;
+}
+
+p {
+  font-family: verdana;
+  font-size: 10px;
+}
