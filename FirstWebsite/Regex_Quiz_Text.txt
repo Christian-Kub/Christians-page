@@ -1,0 +1,11 @@
+1a. 
+1b. The \1 and the \2 is a way to keep the text in the parentheses unchanged. The \1 means that it controls the first group of parentheses, and the \2 means that it controls the second group of parentheses. \1 in this case means any number of characters. While \2 means a space and a new line after the letter.  
+1c. You should keep dot matches all on because it allows the find tool to match almost any character. 
+   Find ^(.+?)(\n\n)
+   Replace <sp>\1</sp>\2 (with dot matches on)
+2. Find ([(])(.*)([)])
+   Replace <stageDir>\1\2</stageDir>
+3. Find (.*)[:]
+   Replace <speaker>\1</speaker>
+   I did not use dot matches becuase I did not search using periods. I serched using the parentheses surrounding the stage directions. 
+4. For some reason in one line I had my tags in the wrong order for the closeing one, this was only in one line so I just flipped them. 

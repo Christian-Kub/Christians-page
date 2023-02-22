@@ -1,0 +1,30 @@
+body{
+  background-color: grey;
+  text-align: center;
+  
+  
+}
+h1 {color: blue;
+}
+
+h2{
+color: black;
+text-align: left;
+font-size: 23px;
+}
+
+h3{ 
+color: yellow;
+text-align: left;
+font-family: timesnewroman;
+}
+
+h4{
+
+}
+
+p{
+font-family: timesnewroman;
+font-size: 25px;
+color: blue;  
+}
